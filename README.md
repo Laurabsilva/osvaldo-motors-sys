@@ -1,0 +1,1 @@
+O cliente deste repositório é o Osvaldo Motors, uma oficina mecânica. O objetivo do sistema é facilitar o controle dos serviços realizados nos veículos, dos valores e dos pagamentos, permitindo que o proprietário tenha maior controle sobre a oficina.
