@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+}
+
+h1 {
+    color: #ffb54d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f2f2;
+}
+
+header {
+    background-color: #000000;
+    border-bottom: 3px solid; 
+    border-color: #ffb54d;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.marca {
+    color: #ffb54d;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.menu {
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #ffb54d;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.texto {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#inicio img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-style: groove;
+    border-color: #bdb5a9;
+}
+
+#funcionalidades {
+    margin-top: 32px;
+    background-color: #2b2b2b;
+    border-top: 5px solid;
+    border-color: #ffb54d;
+    padding: 22px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+#galeria {
+    margin-top: 32px;
+}
+
+#cards {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 290px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2b2b2b;
+    border-style: dashed;
+    border-color: #ffb54d;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin-top: 10px;
+}
+
+#precos {
+    margin-top: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: #555555;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffb54d;
+    color: #000000;
+}
+
+td {
+    background-color: #2b2b2b;
+}
+
+.destaque {
+    margin-top: 20px;
+    border-left: 6px solid;
+    border-color: #ffb54d;
+    padding-left: 16px;
+}
+
+.destaque h3 {
+    font-size: 40px;
+    line-height: 1;
+    color: #ffb54d;
+}
+
+.destaque p {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+footer {
+    background-color: #000000;
+    border-top: 3px solid #ffb54d;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+#contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover span {
+    color: #ffb54d;
+}
