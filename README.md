@@ -43,3 +43,4 @@
 * O carro só é liberado se pago e conferido (REQ10 e REQ11)
 * Somente o proprietário altera preços (REQ04, REQ08 e REQ09)
 
+![Diagrama DER](./der.png)
